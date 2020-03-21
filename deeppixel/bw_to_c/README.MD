@@ -2,6 +2,8 @@
 
 The aim of this task is to generate a script which produces **colorized images**, when **black and white images** are provided as input. 
 
+The script is written in the colorization.py file. For in-depth understanding of the code you may refer to the image_colorization.ipynb file.
+
 ## Approach :
 The approach we will follow is :
 1. For this task we use Lab color space in which 'L' channel denotes lightness (intensity information),
@@ -30,7 +32,7 @@ pip install -r requirements.txt
 4. Run **colorization.py** file with command: 
  
 ```
-python colorization.py [INPUT_PATH] -f [FORMAT] -o [OUTPUT_PATH]
+python colorization.py [INPUT_PATH] -f [INPUT_FORMAT] -o [OUTPUT_PATH]
 ```
  > for example
 ```
